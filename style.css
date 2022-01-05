@@ -1,0 +1,79 @@
+.para {
+  color: white;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+  background-color: #52567a; 
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Dosis', sans-serif;
+  background-color: #52567a;
+
+}
+body{
+  background-image: url("https://cdn.glitch.me/93a2ca75-2770-4c39-94d7-8a51f4d57c55%2Fbackground%20image.jpeg?v=1634164620040");
+}
+.gallery-pic{
+    height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-width: 4px solid white;
+  border-right: 10px solid grey;
+  border-left: 10px solid grey;
+  border-top: 20px solid grey;
+  border-bottom: 70px solid grey;
+  
+  margin: 0 auto;
+}
+.row{
+  display:flex;
+} 
+
+.column{
+  display:flex;
+  flex: 50%;
+  padding: 20px;
+ text-align: center;
+  
+}
+
+h2 {
+  color:#ffffff;
+  font-family: 'Stylish', sans-serif;
+}
+
+ol{
+ color:#ffffff;
+font-size: 20px;
+ font-family: 'Stylish', sans-serif;
+  
+}
+ul{
+   color:#ffffff;
+  font-size: 20px;
+ font-family: 'Stylish', sans-serif;
+  
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 30px;
+  margin-left-left: 30px;
+}
+nav ul{
+  background-color: #cccccc;
+  border-style: double;
+  border-width: 8px;
+  border-color: #52567a;
+  border-radius: 50px;
+}
+.caption{
+  color: white;
+  position: relative;
+  top: 240px;
+  right: 150px;
+  font-size: 20px;
+   margin: 0 0 -50px 0;
+ font-family: 'Stylish', sans-serif;
+}
